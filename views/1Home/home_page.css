@@ -68,14 +68,15 @@ ul {list-style-type: none;}
 }
 
 .hero-image {
-  background-image:url(../photos/34.png);
+  background-image:url(../photos/9.jpg);
   background-color: #cccccc;
-  height: 700px;
+  height: 800px;
+  width:auto;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   border-radius: 20px;
-  margin:0%;
+ 
 }
 
 .hero-text {
@@ -85,7 +86,7 @@ font-family: 'Pacifico', cursive;
 border: #d429a1;
 display: block;
 text-align: center;
-font-size: 1.2rem;
+font-size: 1.3rem;
 
 
 }
@@ -122,11 +123,7 @@ font-size: 1.2rem;
  border: 10px solid white;
  border-radius: 40px;
  box-shadow: 3px 3px 8px 3px #939FA7;
- 
- opacity: 0.6;
- 
- 
-
+ opacity: 0.8;
 }
 
 .i3:hover {
@@ -146,11 +143,15 @@ font-size: 1.2rem;
 
 #h2 { font-size: 1rem; }
 #hh2 { margin: 100px; }
-#h11{
-  margin-top: 5%;
-  
-  
+
+#h12{ color: white;
+font-weight: bold;
+text-align: center;
+font-size: 3rem;
+font-family: 'Indie Flower', cursive;
+margin: 20px;
 }
+
 .iiframe{
   display: block;
   justify-content: center;
@@ -158,7 +159,7 @@ font-size: 1.2rem;
   margin: 80px;
 
   border-radius: 30px;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-family: 'Pacifico', cursive;
 }
 .iframe {
@@ -197,6 +198,8 @@ font-size: 1.2rem;
   text-align: center;
   font-weight: bold;
   margin-top: 110%;
+  font-size: 1.2rem;
+  
 }
 
 .p2{
