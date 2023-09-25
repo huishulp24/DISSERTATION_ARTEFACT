@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const path = require('path')
 
-app.use(express.static(path.join(__dirname,'public')))
+app.use(express.static(path.join(__dirname,'views')))
 
 
 app.listen (4000, () => console.log('Listening on port 4000'))
@@ -13,7 +13,7 @@ app.use('/views', express.static(__dirname + '/views/photos'))
 
 
 app.get('/',(req, res) =>{
-    res.sendFile(__dirname + '/views/1Home/home_page.html')
+    res.sendFile(__dirname + '/views/1Home/index.html')
 })
 
 app.get('/info',(req, res) =>{
