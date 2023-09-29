@@ -265,8 +265,15 @@ a {
 
 
 
+.contact-form1 {
 
+  display:flow-root;
+  position: relative;
+  padding-left: 10%;
+  height: 350px;
+  margin-top: 5%;
 
+}
 
 
 .map-router{

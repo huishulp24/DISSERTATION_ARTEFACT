@@ -114,7 +114,15 @@ font-size: 1.3rem;
  
 }
 
+.contact-form1 {
 
+  display:flow-root;
+  position: relative;
+  padding-left: 10%;
+  height: 250px;
+  margin-top: 10%;
+
+}
 
 .i3 { 
  position: absolute;
